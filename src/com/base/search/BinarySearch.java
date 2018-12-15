@@ -3,8 +3,8 @@ package com.base.search;
 public class BinarySearch {
 
 	public static void main(String[] args) {
-		  int a[] = { 1,2,3};
-		  int target = 3; 
+		  int a[] = { 1,2,3,6};
+		  int target = 6; 
 		  int indexTarget = findElement(0, a.length-1, target, a);
 
 		 if(indexTarget>=0)
